@@ -63,7 +63,7 @@ function caldata(){
 }
 caldata()
 setInterval(caldata,1000)
-////////////////////
+
 function count(){
     let countDown=Array.from( $('textarea').val())
     let c=countDown.length
